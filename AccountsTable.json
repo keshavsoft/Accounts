@@ -1,14 +1,18 @@
 {
     "columns": [
-        {
+       {
             "field": "AccountName",
+            "title": "AccountName",
             "unique": true,
-            "type": "STRING"
+            "type": "STRING",
+            "isInput": true
         },
         {
             "field": "BSGroup",
+            "title": "BSGroup",
             "unique": false,
-            "type": "NUMBER"
+            "type": "NUMBER",
+            "isInput": true
         }
     ],
     "data": []
