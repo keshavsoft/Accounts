@@ -1,0 +1,15 @@
+{
+    "columns": [
+        {
+            "field": "AccountName",
+            "unique": true,
+            "type": "STRING"
+        },
+        {
+            "field": "BSGroup",
+            "unique": false,
+            "type": "NUMBER"
+        }
+    ],
+    "data": []
+}

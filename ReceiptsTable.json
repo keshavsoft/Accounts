@@ -1,0 +1,25 @@
+{
+    "columns": [
+        {
+            "field": "AccountName",
+            "unique": true,
+            "type": "STRING"
+        },
+        {
+            "field": "Date",
+            "unique": false,
+            "type": "NUMBER"
+        },
+        {
+            "field": "Description",
+            "unique": false,
+            "type": "NUMBER"
+        },
+        {
+            "field": "Amount",
+            "unique": false,
+            "type": "NUMBER"
+        }
+    ],
+    "data": []
+}

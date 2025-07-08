@@ -1,0 +1,1 @@
+{"TableName":"AccountsTable","DataPath":"Data","Columns":["AccountName","BSGroup"],"ColumnsWithSchema":[{"field":"AccountName","unique":true,"type":"STRING"},{"field":"BSGroup","unique":false,"type":"NUMBER"}]}
