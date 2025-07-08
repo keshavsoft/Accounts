@@ -1,0 +1,1 @@
+{"TableName":"/V1/AccountsTable","columns":[{"field":"AccountName","title":"AccountName","unique":true,"type":"STRING","isInput":true},{"field":"BSGroup","title":"BSGroup","unique":false,"type":"NUMBER","isInput":true}]}
