@@ -2,23 +2,30 @@
     "columns": [
         {
             "field": "AccountName",
-            "unique": true,
-            "type": "STRING"
+            "title": "Account Name",
+            "isInput": true
         },
         {
             "field": "Date",
-            "unique": false,
-            "type": "NUMBER"
+            "title": "Date",
+            "type": "date",
+            "isInput": true
         },
         {
             "field": "Description",
-            "unique": false,
-            "type": "NUMBER"
+            "title": "Description",
+            "isInput": true
         },
         {
             "field": "Amount",
-            "unique": false,
-            "type": "NUMBER"
+            "title": "Amount",
+            "type": "number",
+            "isInput": true,
+            "numberConfig": {
+                "step": "0.01",
+                "min": "0",
+                "max": "999999999"
+            }
         }
     ],
     "data": []
