@@ -1,0 +1,5 @@
+POST http://localhost:3000/V2/AccountsTable/SubTable/Insert/InsertWithUuIdAndDateTime/{RowIndex}/{KeyName}
+Content-Type: application/json
+
+{
+}
