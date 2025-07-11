@@ -10,13 +10,13 @@ mkdir Public\%myvar%
 
 
 for %%f in (Schemas\*) do (
-    echo %%f
+    echo %%~nf
     xcopy .\ReceiptsTable.json ..\GulpAsUi\schema.json /h /i /c /k /e /r /y
 
 cd ../GulpAsUi
 
 call npm run dist
-    xcopy .\dist ..\Accounts\Public\%myvar%\%%f /h /i /c /k /e /r /y
+    xcopy .\dist ..\Accounts\Public\%myvar%\%%~nf /h /i /c /k /e /r /y
 
     )
 
