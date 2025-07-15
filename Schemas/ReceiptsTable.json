@@ -21,13 +21,16 @@
             "field": "Amount",
             "title": "Amount",
             "type": "number",
+            "align": "right",
             "isInput": true,
             "numberConfig": {
                 "step": "0.01",
                 "min": "0",
                 "max": "999999999"
             },
-            "footerFormatter": "TotalFormatter"
+            "footerFormatter": "TotalFormatter",
+            "ignoreFooterFormatter": true,
+            "RightAlign": true
         }
     ],
     "data": [],
