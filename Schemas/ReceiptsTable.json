@@ -24,7 +24,7 @@
             "field": "Amount",
             "title": "Amount",
             "type": "number",
-            "isInput": true,
+            "isNumber": true,
             "numberConfig": {
                 "step": "0.01",
                 "min": "0",
