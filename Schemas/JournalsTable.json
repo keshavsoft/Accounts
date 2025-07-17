@@ -1,5 +1,5 @@
 {
-    "tableName": "ReceiptsTable",
+    "tableName": "JournalsTable.json",
     "columns": [
         {
             "field": "AccountName",
