@@ -2,6 +2,6 @@
     "Tables": [
         "AccountsTable",
         "ReceiptsTable",
-        "Journals"
+        "JournalsTable"
     ]
 }
