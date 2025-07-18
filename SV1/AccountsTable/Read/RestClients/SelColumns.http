@@ -1,4 +1,0 @@
-POST http://localhost:3000/SV1/AccountsTable/Read/SelColumns
-Content-Type: application/json
-
-[]

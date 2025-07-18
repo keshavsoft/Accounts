@@ -2,6 +2,6 @@ POST http://localhost:3000/V1/AccountsTable/Insert/AsIs
 Content-Type: application/json
 
 {
-  "AccountName": "Keshav",
+  "AccountName": "",
   "BSGroup": ""
 }

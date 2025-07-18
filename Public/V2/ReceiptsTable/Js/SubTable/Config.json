@@ -1,1 +1,0 @@
-{"TableName":"/V1/ReceiptsTable","showFooter":true,"toolbar":"#toolbar","searchable":true,"search":true,"columns":[{"field":"AccountName","title":"AccountName","unique":true,"type":"STRING","isInput":true},{"field":"BSGroup","title":"BSGroup","unique":false,"type":"NUMBER","isInput":true}]}

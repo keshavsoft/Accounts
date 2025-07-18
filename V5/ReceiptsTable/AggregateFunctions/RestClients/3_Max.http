@@ -1,1 +1,0 @@
-GET http://localhost:3000/V5/ReceiptsTable/AggregateFunctions/Max/{ColumnName}

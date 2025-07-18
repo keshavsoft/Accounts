@@ -1,2 +1,0 @@
-DELETE http://localhost:3000/SV1/ReceiptsTable/Delete/WithPk/{pk}
-Content-Type: application/json
