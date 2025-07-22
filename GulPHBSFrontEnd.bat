@@ -6,6 +6,17 @@ call :getNextVersion NEXT_VERSION
 echo Next Version: %NEXT_VERSION%
 mkdir Public\%NEXT_VERSION%
 
+if not exist "..\GulpHbs\" (
+    echo GulpHbs folder not found. Cloning...
+    git clone https://github.com/keshavsoft/GulpHbs ..\GulpHbs
+)
+if not exist "..\GulpHbs\node_modules" (
+    echo node_modules folder not found. Running npm install...
+    pushd ..\GulpHbs
+    call npm i
+    popd
+)
+
 xcopy ".env" "..\GulpHbs\.env" /h /i /c /k /e /r /y >nul
 
 REM --- STEP 2: Iterate over JSON files in Schemas folder ---
