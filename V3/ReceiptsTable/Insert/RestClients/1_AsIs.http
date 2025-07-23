@@ -1,0 +1,9 @@
+POST http://localhost:3000/V3/ReceiptsTable/Insert/AsIs
+Content-Type: application/json
+
+{
+  "AccountName": "latha",
+  "Date": "13-1-2025",
+  "Description": "hi",
+  "Amount": "5800"
+}

@@ -1,0 +1,7 @@
+POST http://localhost:3000/V3/AccountsTable/Insert/AsIsAndTS
+Content-Type: application/json
+
+{
+  "AccountName": "",
+  "BSGroup": ""
+}
