@@ -1,0 +1,1 @@
+{"TableName":"/V4/AccountsTable","showFooter":true,"toolbar":"#toolbar","searchable":true,"search":true,"columns":[{"field":"AccountName","title":"Account Name","unique":true,"type":"STRING","isInput":true},{"field":"BSGroup","title":"Balance Sheet Group","isInput":true}]}
