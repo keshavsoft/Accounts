@@ -4,7 +4,8 @@
         {
             "field": "AccountName",
             "title": "Account Name",
-            "isInput": true
+            "isInput": true,
+             "filterControl":true
         },
         {
             "field": "Date",
