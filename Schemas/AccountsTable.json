@@ -6,7 +6,8 @@
             "title": "Account Name",
             "unique": true,
             "type": "STRING",
-            "isInput": true
+            "isInput": true,
+             "filterControl":true
         },
         {
             "field": "BSGroup",
